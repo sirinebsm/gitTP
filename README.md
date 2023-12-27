@@ -36,13 +36,13 @@
       ssh -T git@github.com
 
 
-4. Créer un nouveau dépôt (repository) :
+3. Créer un nouveau dépôt (repository) :
 
     Cliquez sur le bouton "New" (Nouveau) pour créer un nouveau repository.
     Donnez-lui un nom et une description, puis choisissez les options appropriées.
     Initialisez avec un README si vous voulez ajouter des informations sur votre TP.
 
-5. Cloner votre dépôt :
+4. Cloner votre dépôt :
 
    Utilisez la commande git clone <lien-du-dépôt> dans votre terminal pour copier votre dépôt en local.
    
@@ -50,7 +50,7 @@
    Accèdez avec:
    cd mon-projet
 
-6. Ajouter, modifier et valider vos fichiers :
+5. Ajouter, modifier et valider vos fichiers :
 
     Créez ou modifiez des fichiers dans votre dépôt local.
     Utilisez git status pour voir les changements.
@@ -74,17 +74,17 @@
   Pour afficher les différences entre deux commits, utilisez la commande suivante :
   git diff commit_id_1 commit_id_2
 
-8. Pousser vos modifications sur GitHub :
+6. Pousser vos modifications sur GitHub :
 
     Utilisez git push origin <nom-de-la-branche> pour envoyer vos commits vers GitHub.
 
-9. Travailler avec des branches :
+7. Travailler avec des branches :
 
     Créez une nouvelle branche avec git checkout -b <nom-de-la-branche>.
     Faites des modifications spécifiques sur cette branche.
     Fusionnez cette branche avec la principale lorsque vous avez terminé.
 
-10. Collaboration :
+8. Collaboration :
 
     Ajoutez des collaborateurs à votre projet en utilisant les paramètres du dépôt.
     Pour fusionner le travail d'autres personnes dans votre projet, utilisez les pull requests.
@@ -103,7 +103,7 @@
    
   
 
-11. Gérer les conflits :
+9. Gérer les conflits :
 
     Parfois, les modifications de différentes branches entrent en conflit. Résolvez-les en modifiant manuellement les fichiers.
     Exemple de mon projet <gitTP>:
@@ -117,11 +117,11 @@
     git add .
     git commit -m "Résolution du conflit"
 
-13. Explorer les fonctionnalités avancées :
+10. Explorer les fonctionnalités avancées :
 
     Découvrez les actions GitHub, les problèmes, les wikis, les projets, etc., pour améliorer la gestion de votre projet.
     
-12.Utilisation de Gitflow
+11.Utilisation de Gitflow
 
     1. Initialisation de Gitflow :
     git flow init
