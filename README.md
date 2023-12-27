@@ -12,24 +12,25 @@
    
 3.Préparation de l'environnement Git:
 
-1. Création de clé SSH
+     1. Création de clé SSH
      a. Utilisez la commande suivante pour générer votre clé SSH :
      ssh-keygen -t rsa -b 4096 -C votreadresse@email.com
    
      b. Copiez votre clé publique SSH en utilisant la commande suivante :
      cat ~/.ssh/id_rsa.pub
+     
      c. Connectez-vous à votre compte sur le dépôt distant (par exemple, GitHub) et
      ajoutez votre clé publique SSH dans les paramètres de votre compte.
      
 
-3. Configuration de Git
+    2. Configuration de Git
 
     Configurez votre nom et votre adresse e-mail pour que vos commits soient
     correctement identifiés :
     git config --global user.name "Votre Nom"
     git config --global user.email votre@email.com
 
-3.Connexion SSH aux dépôts distants
+    3.Connexion SSH aux dépôts distants
      Pour tester votre connexion SSH, exécutez la commande suivante. Assurez-vous de
      remplacer `git@github.com` par l'adresse du serveur distant où vous hébergerez vos
      dépôts :
